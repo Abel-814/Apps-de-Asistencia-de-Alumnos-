@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stitch Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+
+    <!-- Top Navigation -->
+    <div class="bg-white shadow-md">
+        <div class="max-w-md mx-auto px-4 py-3 flex items-center">
+            <button class="text-gray-600 hover:text-gray-800 mr-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+            </button>
+            <h1 class="text-xl font-semibold text-gray-700">Notifications</h1>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="max-w-md mx-auto pt-6 pb-20"> <!-- Added pb-20 for bottom spacing if content is long -->
+        <div class="bg-white rounded-lg shadow">
+            <!-- Notification Item -->
+            <a href="#" class="flex items-center p-4 border-b hover:bg-gray-50">
+                <img src="https://via.placeholder.com/40/FF0000/FFFFFF?Text=E" alt="User Avatar" class="w-10 h-10 rounded-full mr-4">
+                <div class="flex-grow">
+                    <p class="text-gray-800 font-medium">Ethan's Absence</p>
+                    <p class="text-xs text-gray-500">Parent's note regarding absence</p>
+                </div>
+                <span class="text-xs text-gray-500">10:30 AM</span>
+            </a>
+            <!-- Notification Item -->
+            <a href="#" class="flex items-center p-4 border-b hover:bg-gray-50">
+                <img src="https://via.placeholder.com/40/00FF00/FFFFFF?Text=S" alt="User Avatar" class="w-10 h-10 rounded-full mr-4">
+                <div class="flex-grow">
+                    <p class="text-gray-800 font-medium">Sophia's Late Arrival</p>
+                    <p class="text-xs text-gray-500">Student will be 15 mins late</p>
+                </div>
+                <span class="text-xs text-gray-500">09:15 AM</span>
+            </a>
+            <!-- Notification Item -->
+            <a href="#" class="flex items-center p-4 border-b hover:bg-gray-50">
+                <img src="https://via.placeholder.com/40/0000FF/FFFFFF?Text=M" alt="User Avatar" class="w-10 h-10 rounded-full mr-4">
+                <div class="flex-grow">
+                    <p class="text-gray-800 font-medium">Meeting Reminder</p>
+                    <p class="text-xs text-gray-500">Staff meeting at 2:00 PM</p>
+                </div>
+                <span class="text-xs text-gray-500">Yesterday</span>
+            </a>
+            <!-- Notification Item -->
+            <a href="#" class="flex items-center p-4 hover:bg-gray-50">
+                <img src="https://via.placeholder.com/40/FFFF00/000000?Text=A" alt="User Avatar" class="w-10 h-10 rounded-full mr-4">
+                <div class="flex-grow">
+                    <p class="text-gray-800 font-medium">Ava's Early Pickup</p>
+                    <p class="text-xs text-gray-500">Guardian will pick up at 1:00 PM</p>
+                </div>
+                <span class="text-xs text-gray-500">Yesterday</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
